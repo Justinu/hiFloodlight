@@ -82,7 +82,7 @@ def get_spotlightGroup(spotlight_service, search_string):
 
 def main(client):
 
-        #弹出窗口让用户选择需要导入的excel文件
+    #弹出窗口让用户选择需要导入的excel文件
 	root = Tkinter.Tk()
 	file_path = askopenfilename(title = '选择需要导入的excel文件：')
 	root.destroy()
